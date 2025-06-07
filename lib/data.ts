@@ -64,7 +64,7 @@ export const projectsData = [
     {
         title: "MyTube",
         description:
-            "An AI-integrated full-stack web for social media and video sharing. Features include SEO optimization, light/dark mode, multi-comment section, video uploading section, and rate limiting.",
+            "An AI-integrated full-stack web for social media and video sharing. Features include SEO optimization, video uploading section.",
         tags: ["React", "Next.js", "TypeScript", "Express.js", "Clerk Auth", "MUX", "OpenAI", "NeonDB", "Tailwind", "Drizzle"],
         imageUrl: youtubeImg,
         url: "https://new-tube-gamma.vercel.app/",
