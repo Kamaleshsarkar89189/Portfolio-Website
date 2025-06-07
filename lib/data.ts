@@ -48,10 +48,10 @@ export const experiencesData = [
         description:
             "I pursued Bachelor of Technology in Computer Science and Engineering",
         icon: React.createElement(LuGraduationCap),
-        date: "2023",
+        date: "2023 - 3rd Year",
     },
     {
-        title: "LauncheED Global Internship",
+        title: "LaunchED Global Internship",
         location: "Bengaluru, Karnataka",
         description:
             "I Completed a 2-month Web3 development internship at Launched Global, building AI-integrated social media frontends using React and Next.js.",
