@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaSchool } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import youtubeImg from "@/public/youtube-img.png";
 import zoomImg from "@/public/zoom.png";
@@ -35,53 +35,53 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Educational foundation",
+        location: "Kaliyaganj Parbati Sundari High School, Kaliyaganj | North Dinajpur",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+            "My educational foundation was built during my schooling years, where I pursued science, later leading to a focused academic journey in Computer Science Engineering.",
+        icon: React.createElement(FaSchool),
+        date: "2023",
+    },
+    {
+        title: "Academic Journey",
+        location: "Brainware University, Barasat | Kolkata",
+        description:
+            "I pursued Bachelor of Technology in Computer Science and Engineering",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "2023",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "LauncheED Global Internship",
+        location: "Bengaluru, Karnataka",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+            "I Completed a 2-month Web3 development internship at Launched Global, building AI-integrated social media frontends using React and Next.js.",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
-    },
-    {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+        date: "2025",
     },
 ] as const;
 
 export const projectsData = [
     {
-        title: "Youtube Clone",
+        title: "MyTube",
         description:
-            "Next.js | Full-stack Youtube Clone with AI intregation, advance technology like drizzle orm, postgreesql, tRPC. Light & Dark mode. ",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+            "An AI-integrated full-stack web for social media and video sharing. Features include SEO optimization, light/dark mode, multi-comment section, video uploading section, and rate limiting.",
+        tags: ["React", "Next.js", "TypeScript", "Express.js", "Clerk Auth", "MUX", "OpenAI", "NeonDB", "Tailwind", "Drizzle"],
         imageUrl: youtubeImg,
         url: "https://new-tube-gamma.vercel.app/",
     },
     {
-        title: "Realtime Video Conference App",
+        title: "Realtime Video Conference Web",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+            "A real-time video conferencing web app built with Stream for high-quality video streaming and reliable real-time communication.",
+        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stream", "Convex"],
         imageUrl: zoomImg,
         url: "https://zoom-clone-silk-kappa.vercel.app/",
     },
     {
         title: "Podcaster",
         description:
-            "Next.js | AI intregated multi-voice podcaster with Authentication (clerk), Convex. ",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+            "AI intregated multi-voice podcaster with Authentication (clerk), Convex. ",
+        tags: ["React", "Next.js", "Convex", "OpenAI", "Tailwind", "shadcn/ui"],
         imageUrl: podcastImg,
         url: "https://podcaster-roan.vercel.app/",
     },
@@ -94,17 +94,19 @@ export const skillsData = [
     "TypeScript",
     "React",
     "Next.js",
+    "shadcn/ui",
     "Node.js",
     "Git",
     "Tailwind",
     "Prisma",
     "MongoDB",
     "Redux",
-    "GraphQL",
-    "Apollo",
+    "Docker",
+    "AWS",
     "Express",
     "PostgreSQL",
+    "C",
+    "DSA",
     "Python",
-    "Django",
-    "Framer Motion",
+    "Java",
 ] as const;
