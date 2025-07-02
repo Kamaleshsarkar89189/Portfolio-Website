@@ -67,7 +67,7 @@ export const projectsData = [
             "An AI-integrated full-stack web for social media and video sharing. Features include SEO optimization, video uploading section.",
         tags: ["React", "Next.js", "TypeScript", "Express.js", "Clerk Auth", "MUX", "OpenAI", "NeonDB", "Tailwind", "Drizzle"],
         imageUrl: youtubeImg,
-        url: "https://new-tube-gamma.vercel.app/",
+        url: "https://mv-hub.netlify.app/",
     },
     {
         title: "Realtime Video Conference Web",
@@ -75,7 +75,7 @@ export const projectsData = [
             "A real-time video conferencing web app built with Stream for high-quality video streaming and reliable real-time communication.",
         tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stream", "Convex"],
         imageUrl: zoomImg,
-        url: "https://mv-hub.netlify.app/",
+        url: "https://zoom-clone-silk-kappa.vercel.app/",
     },
     {
         title: "Podcaster",
