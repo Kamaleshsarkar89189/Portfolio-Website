@@ -75,7 +75,7 @@ export const projectsData = [
             "A real-time video conferencing web app built with Stream for high-quality video streaming and reliable real-time communication.",
         tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stream", "Convex"],
         imageUrl: zoomImg,
-        url: "https://zoom-clone-silk-kappa.vercel.app/",
+        url: "https://mv-hub.netlify.app/",
     },
     {
         title: "Podcaster",
