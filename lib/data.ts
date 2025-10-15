@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import youtubeImg from "@/public/youtube-img.png";
 import zoomImg from "@/public/zoom.png";
 import podcastImg from "@/public/podcast.png";
+import supplyChainImg from "@/public/image.png"
 
 export const links = [
     {
@@ -70,6 +71,14 @@ export const projectsData = [
         url: "https://new-tube-gamma.vercel.app/",
     },
     {
+        title: "Supply Chain Tracker",
+        description:
+            "A blockchain-based Supply Chain Tracker Application built using Hardhat for smart contracts and Next.js for the frontend. It ensures transparency, traceability, and trust in product movement across the supply chain.",
+        tags: ["Next.js", "Hardhat", "Solidity", "Blockchain", "Tailwind", "Web3"],
+        imageUrl: supplyChainImg, 
+        url: "https://chainscope.netlify.app/", 
+    },
+    {
         title: "Realtime Video Conference Web",
         description:
             "A real-time video conferencing web app built with Stream for high-quality video streaming and reliable real-time communication.",
@@ -85,6 +94,7 @@ export const projectsData = [
         imageUrl: podcastImg,
         url: "https://podcaster-roan.vercel.app/",
     },
+    
 ] as const;
 
 export const skillsData = [
