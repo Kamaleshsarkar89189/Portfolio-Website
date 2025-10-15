@@ -54,10 +54,10 @@ export const experiencesData = [
         title: "LaunchED Global Internship",
         location: "Bengaluru, Karnataka",
         description:
-            "I Completed a 2-month Web3 development internship at Launched Global, building AI-integrated social media frontends using React and Next.js.",
+            "I completed a 2-month Web3 development internship at LaunchED Global, where I created a Supply Chain Tracker Application using Hardhat for smart contract development and Next.js for the frontend.",
         icon: React.createElement(CgWorkAlt),
         date: "2025",
-    },
+    }
 ] as const;
 
 export const projectsData = [
