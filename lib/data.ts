@@ -58,6 +58,14 @@ export const experiencesData = [
             "I completed a 2-month Web3 development internship at LaunchED Global, where I created a Supply Chain Tracker Application using Hardhat for smart contract development and Next.js for the frontend.",
         icon: React.createElement(CgWorkAlt),
         date: "2025",
+    },
+    {
+        title: "Samsung Innovation Campus Internship",
+        location: "Brainware University, Barasat",
+        description:
+            "I completed the Samsung Innovation Campus Internship in the field of Artificial Intelligence, where I gained hands-on experience in machine learning, deep learning, and real-world AI model development.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2025",
     }
 ] as const;
 
